@@ -17,7 +17,7 @@ batch_size = 16
 #assign the path for training and validation dataset
 train_data_dir = 'E:/Musicapp/Dataset/train'
 validation_data_dir = 'E:/Musicapp/Dataset/validation'
-
+ 
 #preprocessing on the dataset
 train_datagen = ImageDataGenerator(
 					rescale=1./255,
